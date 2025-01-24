@@ -1,0 +1,15 @@
+[project]
+name = "agentic-repo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "ipython>=8.31.0",
+    "langchain>=0.3.15",
+    "langchain-community>=0.3.15",
+    "langchain-core>=0.3.31",
+    "langchain-groq>=0.2.3",
+    "langgraph>=0.2.67",
+    "python-dotenv>=1.0.1",
+]
