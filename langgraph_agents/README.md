@@ -1,5 +1,6 @@
 
-### Project-1 Overview:
+## Project-1 Overview:
+**Text Analyser:**
 In this project, we'll demonstrate the power of LangGraph by building a multi-step text analysis pipeline. Our use case will focus on processing a given text through three key stages:
 
 - Text Classification: We'll categorize the input text into predefined categories (e.g., News, Blog, Research, or Other).
@@ -32,11 +33,13 @@ const data = {
 }
 ```
 
+**Youtube Tutorial:** [Watch the tutorial here](https://youtu.be/pC3ZSMqUGf4?si=BIyW5OuCKFnuVib7)
+
 ---
 
 
-### Project-2 Overview:
-Project Overview: Essay Grading System:
+## Project-2 Overview:
+**Project Overview: Essay Grading System:**
 In this project, we'll demonstrate the power of LangGraph by building a multi-step essay grading system. Our use case will focus on processing a given essay through four key stages:
 
 - Content Relevance: Assesses how well the essay addresses the given topic
@@ -65,11 +68,13 @@ Structure Score: 0.90
 Depth Score: 0.70
 ```
 
+**Youtube Tutorial:** [Watch the tutorial here](https://youtu.be/pC3ZSMqUGf4?si=BIyW5OuCKFnuVib7)
+
 ---
 
 
-### Project-3 Overview:
-Multi-Agent Software Team:
+## Project-3 Overview:
+**Multi-Agent Software Team:**
 
 **Agents**
 - Analyst: You are a software requirements analyst. Review the provided instructions and generate software development requirements that a developer can understand and create code from. Be precise and clear in your requirements.
@@ -94,3 +99,9 @@ Multi-Agent Software Team:
     - Create a main loop for the chatbot
 3. Each node has the access to the responses of the previous nodes, the `add_messages` property in the GraphState is used to add messages to the state from each node
 4. Adding a new project on LangSmith - Langgraph_Agents, added the langsmith api keys in the .env file(For tracing purposes)
+
+<br>
+
+**Youtube Tutorial:** [Watch the tutorial here](https://youtu.be/YCNFyzQ2Z0g?si=cS6Bp1FP1wvBtzGB)
+
+---
