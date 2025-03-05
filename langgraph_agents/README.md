@@ -105,3 +105,10 @@ Depth Score: 0.70
 **Youtube Tutorial:** [Watch the tutorial here](https://youtu.be/YCNFyzQ2Z0g?si=cS6Bp1FP1wvBtzGB)
 
 ---
+
+## Project-4 Overview:
+**Financial Research Team with Supervisor:**
+
+
+### Steps:
+1. 
