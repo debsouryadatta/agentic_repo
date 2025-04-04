@@ -1,5 +1,5 @@
 ## Project-1 Overview:
-**Archon:**
+**Archon(v2):**
 Archon is an AI agent that is able to create other AI agents using an advanced agentic coding workflow and framework knowledge base to unlock a new frontier of automated agents.
 
 ### Why use both LangGraph and Pydantic AI?
@@ -41,6 +41,32 @@ Archon is an AI agent that is able to create other AI agents using an advanced a
 Hey, this was just fantastic, I guess langgraph + pydantic ai will be my goto for my next agents.
 Had a question to clear, when we send an initial message in the streamlit ui, the first response coming from the graph gets stuck in the interrupt and not ending the conversation till we say that "the agent is perfect, we can end". Or if we say "modify a specific part", it will go again to the coder_agent node and again get stuck on the interrupt right? So am I thinking the right way or there is a mismatch in my thinking, will be very helpful if you could clear this up!
 
+Response: Thank you! Yes, this is the right understanding. I wouldn't say stuck, I'd just say it's waiting for user input to continue.
+
 ### For usuage of this project:
 Follow this docs -> https://github.com/coleam00/Archon/blob/main/iterations/v2-agentic-workflow/README.md
+
+
+
+---
+
+## Project-2 Overview:
+**Archon(v3):**
+On top of Archon(v2), few new features added:
+- MCP Support: Integration with AI IDEs like Windsurf and Cursor
+- Automated file creation and dependency management
+- FastAPI service for agent generation
+- Improved project structure and organization
+
+### Files:
+- archon dir: For the archon(langgraph+pydantic ai) agent same as previous
+- graph_service.py: FastApi server endpoint for invoking the archon agent
+- mcp_server.py: MCP server containing 2tools, one for creating a new thread and another for invoking the archon agent with the created thread_id
+- setup_mcp.py: Script to set-up the .venv and install requirements, also to create the mcp-config.json file which we have to put in the windsurf/cursor to use this mcp server
+- streamlit_ui.py: Streamlit UI for interacting with the archon agent (if we want to access the agent through streamlit ui, same as previous)
+
+
+--- 
+
+
 
