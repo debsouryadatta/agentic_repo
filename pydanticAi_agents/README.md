@@ -34,3 +34,19 @@ RAG Website Crawler(crawl_pydantic_ai_docs.py)
 **Youtube Tutorial:** [Watch the tutorial here](https://youtu.be/_R-ff4ZMLC8?si=CGCJM0SoMmNczXe4)
 
 ---
+<br>
+<br>
+<br>
+
+
+# Project-2 Overview:
+**Mem0 memory agent:**
+This project demonstrates how to build an AI assistant with memory capabilities using the Mem0 library, OpenAI, vector storage. For now we are not providing the database urls for vector storage, we will use in-memory by default. It can add memories based on userIds and later can search for the memories according to the user query(Uses RAG behind the scenes).
+
+
+**Youtube Tutorial:** [Watch the tutorial here](https://youtu.be/iOZpiXLT7iY?si=CMydkCC32HtPu4gJ)
+<br>
+**Github:** [Github Link](https://github.com/coleam00/ottomator-agents/blob/main/mem0-agent/README.md)
+
+
+---

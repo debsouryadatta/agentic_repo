@@ -1,4 +1,4 @@
-## Project-1 Overview:
+# Project-1 Overview:
 **Archon(v2):**
 Archon is an AI agent that is able to create other AI agents using an advanced agentic coding workflow and framework knowledge base to unlock a new frontier of automated agents.
 
@@ -47,10 +47,13 @@ Response: Thank you! Yes, this is the right understanding. I wouldn't say stuck,
 Follow this docs -> https://github.com/coleam00/Archon/blob/main/iterations/v2-agentic-workflow/README.md
 
 
-
 ---
+<br>
+<br>
+<br>
 
-## Project-2 Overview:
+
+# Project-2 Overview:
 **Archon(v3):**
 On top of Archon(v2), few new features added:
 - MCP Support: Integration with AI IDEs like Windsurf and Cursor
